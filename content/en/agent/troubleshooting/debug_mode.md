@@ -25,7 +25,7 @@ To enable the Agent full debug mode:
 
 1. Modify your local `datadog.yaml` file. See [Agent main configuration file][1] for OS specific details.
 
-2. Replace `# log_level: INFO` with `log_level: DEBUG` (remove `#` to uncomment the line).
+2. Replace `# verbosity: normal` with `verbosity: detailed` (remove `#` to uncomment the line).
 
 3. Restart the Datadog Agent. See [Agent Commands][2] for OS specific details.
 
